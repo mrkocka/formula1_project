@@ -30,3 +30,15 @@ for(let i=0; i<toggles.length; i++){
         }
     });
 }
+
+
+//Login menu open and clos function
+
+document.querySelector("#userLog").addEventListener ("click", function(){
+        document.querySelector("#login").style.display = "flex";
+    });
+
+
+document.querySelector("#loginXButton").addEventListener ("click", function(){
+    document.querySelector("#login").style.display = "none";
+});
