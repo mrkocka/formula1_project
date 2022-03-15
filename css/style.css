@@ -176,13 +176,14 @@ nav span:hover{
 .wrapper{
     background-color: white;
     margin-bottom: 40px;
-   box-shadow: 0 15px 25px rgba(0,0,50,0.2);
-   padding: 15px 40px;
+    box-shadow: 0 15px 25px rgba(0,0,50,0.2);
+    padding: 15px 40px;
+    
 }
 
 
 .content{
-    background-color: rgba(128, 255, 0, 0.281);
+    
     position: relative;
     height: 0;
     overflow: hidden;
@@ -196,7 +197,58 @@ nav span:hover{
     box-shadow: 1px 1px 1px black;
 }
 
+.podium{
+    
+    display: flex;
+    justify-content: center;
+    height:auto;
+    flex-wrap: wrap;
+    
+}
+.podium .first, .second, .third{
+    outline: 1px solid black;
+    background-color: #E10600;
+    margin: 1rem 2rem 1rem 2rem;
+    height: 12rem;
+    width: 12rem;
+}
 
+.scorers{
+    background-color: rgba(128, 255, 0, 0.281);
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sTable{
+    width: 70%;
+    margin-top: 2rem;
+}
+
+.sTable:first-child{
+    margin-bottom: 1rem;
+}
+
+.scorers .sTable{
+    text-align: center;
+    padding: 1rem;
+    background-color: chartreuse;
+}
+
+.sName{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.sName div{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #E10600;
+    margin: .2rem;
+}
 
 
 /*-------------------------------Footer-----------------------------------------*/
