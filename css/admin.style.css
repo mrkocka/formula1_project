@@ -4,23 +4,31 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #EDEDED;
+}
+
 nav{
     width: 6.5rem;
     background-color: #E10600;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-}
-
-.userInfo{
-    text-align: center;
     color: whitesmoke;
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
 }
+
+.userInfo{
+    text-align: center;
+    
+}
 .userInfo p{
     margin-bottom: 1rem;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
 }
 
 
@@ -32,9 +40,15 @@ nav span{
 
 nav .fas{
     margin: 1rem 0 1rem  0;
+    cursor: pointer;
 }
 
 
 .exit .fas{
     color: whitesmoke;
+    cursor: pointer;
+}
+
+.fa-sign-out-alt:hover{
+    color: rgba(245, 245, 245, 0.493);
 }
