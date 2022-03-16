@@ -269,3 +269,19 @@ footer{
 .footerTwo{
     margin: 2rem 0 .1rem 0;
 }
+
+/*----------------------Media Queries--------------------*/
+
+@media screen and (max-width: 900px) {
+    .toggle{
+        flex-direction: column;
+        
+    }
+   .toggle div, span, i, img{
+       margin-bottom: 1rem;
+   }
+    
+
+}
+
+/*900px*/
