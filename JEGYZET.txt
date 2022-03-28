@@ -7,3 +7,31 @@ https://www.formula1.com/
 
 console.log(contentDiv[i].style.height,
             contentDiv[i].scrollHeight);
+
+
+
+
+https://www.formula1.com/en/results.html/2022/races/1124/bahrain/race-result.html
+
+
+
+Istálók
+
+Request URL: https://www.formula1.com/content/dam/fom-website/teams/2022/alfa-romeo.png.transform/2col/image.png
+Request URL: https://www.formula1.com/content/dam/fom-website/teams/2022/alphatauri.png.transform/2col/image.png
+Request URL: https://www.formula1.com/content/dam/fom-website/teams/2022/teamcar-alpine.png.transform/2col/image.png
+Request URL: https://www.formula1.com/content/dam/fom-website/teams/2022/aston-martin.png.transform/2col/image.png
+Request URL: https://www.formula1.com/content/dam/fom-website/teams/2022/ferrari.png.transform/2col/image.png
+Request URL: https://www.formula1.com/content/dam/fom-website/teams/2022/haas-f1-team.png.transform/2col/image.png
+Request URL: https://www.formula1.com/content/dam/fom-website/teams/2022/teamcar-mclaren.png.transform/2col/image.png
+Request URL: https://www.formula1.com/content/dam/fom-website/teams/2022/mercedes.png.transform/2col/image.png
+Request URL: https://www.formula1.com/content/dam/fom-website/teams/2022/red-bull-racing.png.transform/2col/image.png
+Request URL: https://www.formula1.com/content/dam/fom-website/teams/2022/williams.png.transform/2col/image.png
+
+
+
+Pilóták 
+
+https://www.formula1.com/en/drivers.html
+
+(még ki kell gyűjteni)

@@ -9,7 +9,7 @@ for(let i=0; i<toggles.length; i++){
         if(parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight) {
                 contentDiv[i].style.height = contentDiv
                 [i].scrollHeight + "px";
-                toggles[i].style.color = "#0084e9";
+                toggles[i].style.color = "gray";
                 icons[i].classList.remove('fa-plus');
                 icons[i].classList.add('fa-minus');
         }
